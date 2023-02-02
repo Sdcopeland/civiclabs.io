@@ -1,0 +1,45 @@
+baseURL: ""
+languageCode: en-us
+title: Civiclabs
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    title: "Civiclabs"
+    subtitle: "Welcome to my slice of the internet"
+    imageUrl: ""
+    imageTitle: ""
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: About
+        url: "/about"
+      - name: Posts
+        url: "/archive"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/sdcopeland"
+    - name: "Mastodon"
+      url: "mastadon.social"
+      
+      
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main: 
+    - indentifier: About
+      name: About
+      url: /about/
+      weight: 10
+
+    - indentifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    
